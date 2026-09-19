@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de César Hernández">
+    <title>Portafolio | César Hernández</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos para adaptar correctamente las imágenes */
+        .profile-img {
+            width: 100%;
+            max-width: 280px;
+            height: auto;
+            border-radius: 16px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+        .project-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 12px 12px 0 0;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#inicio" class="logo">César<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio" class="hero">
+
+            <div class="hero-content">
+                <p class="subtitle">BIENVENIDO A MI PORTAFOLIO</p>
+
+                <h1>
+                    Hola, soy <span>César Hernández</span>
+                </h1>
+
+                <p>
+                    Estudiante interesado en la tecnología, el diseño
+                    y el desarrollo web.
+                </p>
+
+                <a href="#proyectos" class="btn">
+                    Ver mis proyectos
+                </a>
+            </div>
+
+            <div class="hero-card">
+                <div class="code-icon">&lt;/&gt;</div>
+                <h2>Desarrollo Web</h2>
+                <p>HTML • CSS • JavaScript</p>
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi" class="section">
+
+            <div class="section-title">
+                <p>CONÓCEME</p>
+                <h2>Sobre mí</h2>
+            </div>
+
+            <div class="about-container">
+
+                <div class="about-image">
+                    <!-- FOTO DE PERFIL DESDE LA CARPETA img -->
+                    <img src="img/yo.jpg" alt="César Hernández" class="profile-img">
+                </div>
+
+                <div class="about-text">
+
+                    <h3>Hola, soy César 👋</h3>
+
+                    <p>
+                        Soy estudiante de bachillerato y una persona
+                        interesada en la tecnología, el diseño y el
+                        desarrollo de proyectos.
+                    </p>
+
+                    <p>
+                        Me gusta aprender cosas nuevas, especialmente
+                        relacionadas con la informática y la creación
+                        de páginas web. También me interesa desarrollar
+                        mis habilidades y buscar soluciones creativas
+                        a diferentes problemas.
+                    </p>
+
+                    <p>
+                        Actualmente estoy aprendiendo sobre
+                        <strong>HTML, CSS y JavaScript</strong>, herramientas
+                        que me permiten crear sitios web interactivos
+                        y mejorar mis conocimientos de programación.
+                    </p>
+
+                    <a href="#contacto" class="btn">
+                        Contáctame
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HABILIDADES -->
+        <section id="habilidades" class="section skills-section">
+
+            <div class="section-title">
+                <p>LO QUE SÉ HACER</p>
+                <h2>Mis habilidades</h2>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" data-progress="90%"></div>
+                    </div>
+                </div>
+
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>CSS</span>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" data-progress="85%"></div>
+                    </div>
+                </div>
+
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" data-progress="75%"></div>
+                    </div>
+                </div>
+
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>Creatividad</span>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" data-progress="90%"></div>
+                    </div>
+                </div>
+
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>Trabajo en equipo</span>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" data-progress="85%"></div>
+                    </div>
+                </div>
+
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>Resolución de problemas</span>
+                        <span>88%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" data-progress="88%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="section">
+
+            <div class="section-title">
+                <p>MI TRABAJO</p>
+                <h2>Mis proyectos</h2>
+            </div>
+
+            <div class="projects-container">
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <!-- IMAGEN CÉSAR SWEET DESDE img -->
+                        <img src="img/cesar-sweet.jpg" alt="César Sweet" class="project-img">
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>César Sweet</h3>
+
+                        <p>
+                            Proyecto de emprendimiento enfocado en la
+                            elaboración y venta de postres. Incluye
+                            diseño de marca y desarrollo de una página web.
+                        </p>
+
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Emprendimiento</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <!-- IMAGEN PORTAFOLIO DESDE img -->
+                        <img src="img/portafolio.jpg" alt="Portafolio Personal" class="project-img">
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>Portafolio Personal</h3>
+
+                        <p>
+                            Sitio web creado para presentar información
+                            personal, habilidades, proyectos y conocimientos
+                            relacionados con el desarrollo web.
+                        </p>
+
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <!-- IMAGEN PÁGINA INTERACTIVA DESDE img -->
+                        <img src="img/pagina-interactiva.jpg" alt="Página Web Interactiva" class="project-img">
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>Página Web Interactiva</h3>
+
+                        <p>
+                            Proyecto de desarrollo web utilizando diseño
+                            responsive, navegación interactiva y diferentes
+                            elementos dinámicos.
+                        </p>
+
+                        <div class="tags">
+                            <span>Web</span>
+                            <span>Responsive</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="section contact-section">
+
+            <div class="section-title">
+                <p>PONGÁMONOS EN CONTACTO</p>
+                <h2>Contáctame</h2>
+            </div>
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+
+                    <h3>¿Tienes alguna pregunta?</h3>
+
+                    <p>
+                        Puedes enviarme un mensaje directo a mi correo electrónico o usar el formulario.
+                    </p>
+
+                    <div class="contact-item">
+                        📧
+                        <a href="mailto:cahernandezm2@gmail.com">cahernandezm2@gmail.com</a>
+                    </div>
+
+                    <div class="contact-item">
+                        📱
+                        <a href="https://wa.me/593992806433" target="_blank">+593 99 280 6433</a>
+                    </div>
+
+                    <div class="contact-item">
+                        📍
+                        <span>Guayaquil, Ecuador</span>
+                    </div>
+
+                </div>
+
+
+                <form id="contact-form" class="contact-form" action="mailto:cahernandezm2@gmail.com" method="post" enctype="text/plain" novalidate>
+
+                    <div class="form-group">
+
+                        <label for="name">Nombre</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Escribe tu nombre"
+                        >
+
+                        <small id="name-error"></small>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">Correo electrónico</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="ejemplo@gmail.com"
+                        >
+
+                        <small id="email-error"></small>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">Mensaje</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Escribe tu mensaje"
+                        ></textarea>
+
+                        <small id="message-error"></small>
+
+                    </div>
+
+
+                    <button type="submit" class="btn">
+                        Enviar mensaje
+                    </button>
+
+                    <p id="form-message"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+        
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h2>César<span>.</span></h2>
+
+            <p>
+                Portafolio personal | Desarrollo Web
+            </p>
+
+            <p>
+                Contacto directo: <a href="mailto:cahernandezm2@gmail.com" style="color: #fff; text-decoration: underline;">cahernandezm2@gmail.com</a>
+            </p>
+
+            <p>
+                © 2026 César Hernández. Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
